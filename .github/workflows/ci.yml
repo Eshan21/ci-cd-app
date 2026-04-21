@@ -17,8 +17,5 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Install Dependencies
-      run: npm install
-
     - name: Run App
       run: node app.js
